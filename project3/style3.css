@@ -1,0 +1,127 @@
+/* Reset and base */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F9FAFB;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main hero section */
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px; /* keeps the form narrow and centered */
+}
+
+/* Top header card */
+.top2 {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+.top2 h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #111827;
+}
+
+.top2 p {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #6B7280;
+    text-align: center;
+}
+
+/* Bottom form card */
+.bottom2 {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Form labels */
+.bottom2 label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #111827;
+    align-self: flex-start; /* ensures labels start from left even if parent is centered */
+}
+
+/* Inputs and selects */
+.bottom2 input,
+.bottom2 select {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB; /* subtle grey border */
+    font-size: 0.95rem;
+    color: #111827;
+    background-color: #F9FAFB;
+    outline: none;
+}
+
+.bottom2 input:focus,
+.bottom2 select:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Buttons container */
+.bottom_buttons2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* Buttons style */
+.bottom_buttons2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    min-width: 140px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.blue_button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+.blue_button:hover {
+    background-color: #1E40AF;
+}
+
+.white_button {
+    background-color: #F3F4F6;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
+
+.white_button:hover {
+    background-color: #E5E7EB;
+}

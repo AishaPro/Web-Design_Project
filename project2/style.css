@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-main: #F7F8F6;
+  --text-primary: #1F1F1F;
+  --text-secondary: #5F6368;
+  --accent: #3B5CCC; /* or #8FA59A */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+body{
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F7F8F6;
+    font-size: 1.3rem;
+}
+.navigation{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #a4a3a3;
+    padding: 10px 35px;
+    justify-content: space-between;
+    position: relative;
+    height: 45px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-items: center;
+}
+.nav-left{
+    background-color: none;
+    color: var(--text-primary);
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+a:visited{
+    color: var(--text-secondary)
+}
+a:hover{
+    color: #3B5CCC;
+}
+
+
+
+.Home{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.Home ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: disc;
+    padding-left: 50px;
+    text-align: center;
+}
+.Home li{
+    display: list-item;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.buttons a{
+    background-color: rgb(37, 98, 37);
+    border-radius: 20px;
+    border-color: white;
+    border-style: none;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.photoCards{
+    min-width: 0;
+    width: clamp(180px, 25vw, 300px);
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.photoCards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projects{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+.python{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Java{
+    display: flex;
+    flex-direction: column;
+}
+.c-sharp{
+    display: flex;
+    flex-direction: column;
+}
+.projectcards{
+    text-align:left;
+}

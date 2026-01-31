@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Staff Management</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <section class = "hero2">
+            <div class = "top2">
+                <h1>Add New Employee</h1>
+                <p>Create a new employee profile for your team</p>
+                <a href="employees.html" class="white_button">Back to List</a>
+            </div>
+
+            <div class="bottom2">
+                <h3>Employee Information</h3>
+
+                <label for = "full_name">Full Name *</label>
+                <input type="text" name = "full_name" id="full_name" placeholder="Enter employee's full name">
+
+                <label for = "department">Department *</label>
+                <select name="country">
+                    <option value = "" disabled selected>Please select an option</option>
+                    <option value = "teaching">Teaching</option>
+                    <option value = "cleaning_service">Cleaning service</option>
+                    <option value = "management">Management</option>
+                    <option value = "security">Security</option>
+                </select>
+
+                <label for = "phone_number">Phone Number *</label>
+                <input type="number" name = "phone_number" id="phone_number" placeholder="Enter phone number">
+
+                <div class="bottom_buttons">
+                    <a class="white_button" href="#">Cancel</a>
+                    <a class="blue_button" href="#">Create Employee</a>
+
+                    <p>All Fileds marked with * are required</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

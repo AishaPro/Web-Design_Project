@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Staff March</title>
+        <link rel = "stylesheet" href = "style3.css">
+    </head>
+
+    <body>
+        <section class = "hero2">
+            <div class = "top2">
+                <h1>Add New Contribution</h1>
+                <p>Record employee contribution details</p>
+            </div>
+
+            <div class="bottom2">
+                <label for = "employee">Employee *</label>
+                <select name="employee">
+                    <option value = "" disabled selected>Please select employee</option>
+                </select>
+
+                <label for = "month">Month *</label>
+                <select name="month">
+                    <option value = "" disabled selected>Please select month</option>
+                    <option value = "January">January</option>
+                    <option value = "February">February</option>
+                    <option value = "March">March</option>
+                    <option value = "April">Security</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+
+                <label for = "amount">Amount (₦) *</label>
+                <input type="number" name = "amount" id="amount" placeholder="0.00">
+
+                <label for = "date_paid">Date Paid *</label>
+                <input type="date" name = "date" id="amount">
+
+                <div class="bottom_buttons2">
+                    <a class="white_button" href="#">Cancel</a>
+                    <a class="blue_button" href="#">Create Contribution</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
